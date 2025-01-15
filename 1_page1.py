@@ -4,8 +4,8 @@ import plotly.express as px
 
 st.set_page_config(layout='wide')
 
-df_reviews = pd.read_csv('/Users/T-GAMER/OneDrive/Documentos/GitHub/primeiro-projeto-asimov/dataset/customer reviews.csv')
-df_top100_books = pd.read_csv('/Users/T-GAMER/OneDrive/Documentos/GitHub/primeiro-projeto-asimov/dataset/Top-100 Trending Books.csv')
+df_reviews = pd.read_csv('/dataset/customer reviews.csv')
+df_top100_books = pd.read_csv('/dataset/Top-100 Trending Books.csv')
 
 price_max = df_top100_books['book price'].max()
 #variável que pega o maior valor da coluna 'book price'
